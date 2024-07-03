@@ -1,0 +1,13 @@
+Parquet a CSV
+  Parquet:
+    Parquet to kolumnowy format przechowywania danych.
+    Dane są przechowywane kolumnami, co ułatwia kompresję i przyspiesza odczytywanie danych, szczególnie gdy potrzebujemy tylko niektórych kolumn. 
+    Ze względu na kolumnowy układ danych, Parquet jest bardziej efektywny przy operacjach na dużych zbiorach danych, zwłaszcza gdy pracujemy z niektórymi kolumnami, a nie całym zestawem danych. 
+    Jest szczególnie wydajny w analizie danych i obciążeniach związanych z dużymi zapytaniami SQL. 
+    Parquet obsługuje złożone typy danych, takie jak zagnieżdżone struktury, tablice i struktury zagnieżdżone, co jest korzystne dla złożonych zestawów danych. 
+
+  CSV:
+    CSV to format pliku przechowujący dane w postaci tekstowej, gdzie każda linia reprezentuje jeden wiersz, a kolumny są rozdzielane przecinkami
+    CSV jest prostym i czytelnym formatem tekstowym, co ułatwia jego edycję i przeglądanie. 
+    Brak kompresji
+    CSV jest mniej wydajny w operacjach na dużych zbiorach danych w porównaniu do formatów kolumnowych jak Parquet. 
